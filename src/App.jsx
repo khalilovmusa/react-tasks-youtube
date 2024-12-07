@@ -1,11 +1,11 @@
 import './App.css'
-import OnChange from './components/OnChange'
+import UpdateArr from './components/UpdateArr'
 
 
 function App() {
 
   return <>
-    <OnChange />
+    <UpdateArr />
   </>
 }
 
