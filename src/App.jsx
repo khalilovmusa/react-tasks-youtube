@@ -1,11 +1,11 @@
 import './App.css'
-import UpdateArr from './components/UpdateArr'
+import UpdateObjArr from './components/UpdateObjArr'
 
 
 function App() {
 
   return <>
-    <UpdateArr />
+    <UpdateObjArr />
   </>
 }
 
