@@ -10,15 +10,18 @@ const UpdateArr = () => {
         setArr(a => [...a, newElement]);
     }
 
-    const handleItemRemove = (e,index) => {
-        console.log(e,index)
+    const handleItemRemove = (index) => {
+        // arr.splice(index, 1);
+        // setArr(prevArr => [...prevArr])
+
+        setArr(arr.filter(( _, i) => i !== index))
     }
 
     return (<div>
         <ul>
             {arr?.map((item, index) => {
                 console.log(index)
-                return <><li key={index}>{item}</li><button onClick={(e, index) => {handleItemRemove(e,index)}}>Delete</button></>
+                return <><li key={index}>{item}</li><button onClick={() => {handleItemRemove(index)}}>Delete</button></>
             })}
         </ul>
         <input type="text" id='listInput' />
