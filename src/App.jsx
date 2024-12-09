@@ -1,11 +1,11 @@
 import './App.css'
-import UseEffectHook from './components/UseEffectHook'
+import WidthHeight from './components/WidthHeight'
 
 
 function App() {
 
   return <>
-           <UseEffectHook />
+           <WidthHeight />
          </>
 }
 
