@@ -41,3 +41,7 @@
   color: hsl(0, 0%, 45%);
   cursor: pointer;
 }
+.box{
+  padding: 10px;
+  border: 1px solid black;
+}

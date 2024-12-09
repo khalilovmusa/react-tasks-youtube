@@ -1,11 +1,11 @@
 import './App.css'
-import WidthHeight from './components/WidthHeight'
+import ComponentA from './components/ComponentA'
 
 
 function App() {
 
   return <>
-           <WidthHeight />
+           <ComponentA />
          </>
 }
 
