@@ -1,12 +1,12 @@
 import './App.css'
-import UpdateObjArr from './components/UpdateObjArr'
+import UseEffectHook from './components/UseEffectHook'
 
 
 function App() {
 
   return <>
-    <UpdateObjArr />
-  </>
+           <UseEffectHook />
+         </>
 }
 
 export default App
